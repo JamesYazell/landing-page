@@ -16,12 +16,27 @@ a:active {
         text-decoration: underline;
       }
 
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
 
 .header {
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
-    list-style: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
 }
 
 h1 {
