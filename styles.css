@@ -22,14 +22,17 @@ ul {
         padding: 0;
       }
 
+.body {
+    display: flex;
+}
+
 .header {
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
-    list-style-type: none;
     display: flex;
     justify-content: space-between;
-    
+    align-self: flex-start;
 }
 
 .hero {
