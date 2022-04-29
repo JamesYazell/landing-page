@@ -22,6 +22,15 @@ ul {
         padding: 0;
       }
 
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 10px 32px;
+    border-radius: 12px;
+    border: 0px;
+    font-size: 18px;
+}
+
 .body {
     display: flex;
 }
@@ -54,15 +63,19 @@ ul {
     display: flex;
     padding-left: 80px;
     padding-right: 80px;
-    flex-direction: column
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .hero-text {
     align-self: flex-start;
+    flex-direction: column
 }
 
 .hero-image {
     align-self: flex-end;
+    padding-left: 50px;
+    
 }
 
 h1 {
