@@ -34,8 +34,8 @@ ul {
     justify-content: space-between;
     align-self: flex-start;
     align-items: center;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .list-container ul {
@@ -52,6 +52,17 @@ ul {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    flex-direction: column
+}
+
+.hero-text {
+    align-self: flex-start;
+}
+
+.hero-image {
+    align-self: flex-end;
 }
 
 h1 {
