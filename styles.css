@@ -161,3 +161,15 @@ button {
     font-size: 18px;
     
 }
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
