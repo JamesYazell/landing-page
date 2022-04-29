@@ -33,7 +33,19 @@ ul {
     display: flex;
     justify-content: space-between;
     align-self: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+.list-container ul {
+    display:flex;
+    justify-content:space-around;
+    list-style:none;
+    text-decoration: none;
+    color: #e5e7eb;
+    gap: 10px;
+ }
 
 .hero {
     background-color: #1f2937;
